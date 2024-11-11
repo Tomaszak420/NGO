@@ -1,16 +1,17 @@
 <html>
+ 
 <nav class="navbar">
   <div>
     <h1 id="logo">Platforma dla NGO</h1>
   </div>
   <ul class="navbar-links">
-    <li><a href="#">Blog Akcji</a></li>
-    <li><a href="#">Kalendarz akcji</a></li>
-    <li><a href="#" class="login-link">Zaloguj się</a></li>
+    <li><a routerLink="" routerLinkActive="active" ariaCurrentWhenActive="page">Blog Akcji</a></li>
+    <li><a routerLink="/kalendarz-akcji-component" routerLinkActive="active" ariaCurrentWhenActive="page">Kalendarz akcji</a></li>
+    <li><a routerLink="/rejestracja-component" routerLinkActive="active" ariaCurrentWhenActive="page" class="login-link">Zaloguj się</a></li>
   </ul>
 </nav>
 <hr>
 
-<app-blog-akcji />
+<router-outlet></router-outlet>
 
 </html>

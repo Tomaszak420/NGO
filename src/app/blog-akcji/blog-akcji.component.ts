@@ -21,7 +21,7 @@ export class BlogAkcjiComponent {
       title: 'Akcja 1',
       date: '24.01.2023',
       location: 'Kraków',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       mainList: 2,
       reserveList: 3
     },
@@ -29,7 +29,7 @@ export class BlogAkcjiComponent {
       title: 'Akcja 1',
       date: '24.01.2023',
       location: 'Kraków',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       mainList: 2,
       reserveList: 3
     },
@@ -37,7 +37,7 @@ export class BlogAkcjiComponent {
       title: 'Akcja 2',
       date: '24.01.2023',
       location: 'Kraków',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       mainList: 2,
       reserveList: 3
     },
@@ -45,7 +45,7 @@ export class BlogAkcjiComponent {
       title: 'Akcja 3',
       date: '24.01.2023',
       location: 'Kraków',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       mainList: 2,
       reserveList: 3
     },
@@ -53,7 +53,7 @@ export class BlogAkcjiComponent {
       title: 'Akcja 2',
       date: '24.01.2023',
       location: 'Kraków',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       mainList: 5,
       reserveList: 3
     },
@@ -61,7 +61,7 @@ export class BlogAkcjiComponent {
       title: 'Akcja 3',
       date: '24.01.2023',
       location: 'Kraków',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       mainList: 7,
       reserveList: 10
     }

@@ -1,9 +1,10 @@
 import { Component, Input } from '@angular/core';
-
+import { RouterOutlet,RouterLink,RouterLinkActive } from '@angular/router';
 @Component({
   selector: 'app-action-card',
   templateUrl: './action-card.component.html',
   styleUrls: ['./action-card.component.scss'],
+  imports:[RouterOutlet,RouterLink,RouterLinkActive],
   standalone: true
 })
 export class ActionCardComponent {

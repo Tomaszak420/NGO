@@ -4,9 +4,11 @@ import { KalendarzAkcjiComponent } from './kalendarz-akcji/kalendarz-akcji.compo
 import { RejestracjaComponent } from './Logowanie/rejestracja/rejestracja.component';
 import { WidokWolontariuszaComponent } from './widok-wolontariusza/widok-wolontariusza.component';
 import { WidokAdministratoraComponent } from './widok-administratora/widok-administratora.component';
+import { StronaAkcjiComponent } from './strona-akcji/strona-akcji.component';
 
-export const routes: Routes = [
-    { path: 'blog-akci-component', component: BlogAkcjiComponent },  
+ export  const routes: Routes = [
+    { path: '', component: BlogAkcjiComponent }, 
+    { path: 'strona-akcji-component', component: StronaAkcjiComponent },  
     { path: 'kalendarz-akcji-component', component: KalendarzAkcjiComponent },
     { path: 'rejestracja-component', component: RejestracjaComponent },  
     { path: 'widok-wolontariusza-component', component: WidokWolontariuszaComponent },
