@@ -1,0 +1,15 @@
+<h2 >Blog akcji</h2>
+<div class="action-list">
+ 
+   @for(action of actions; track action.title){
+
+  <app-action-card  
+  
+  [title]="action.title"
+  [date]="action.date"
+  [location]="action.location"
+  [description]="action.description"
+  [mainList]="action.mainList"
+  [reserveList]="action.reserveList"/>
+}
+</div>
