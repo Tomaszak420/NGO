@@ -1,0 +1,15 @@
+
+    @for(action of actions; track action.id){
+    <div  class="action" (click)="toggleButtons(action.id)">
+        <h3>{{ action.title }}</h3>
+        <p>Data: {{ action.date }} Godzina: {{ action.time }} Lokalizacja: {{ action.location }} Lista: {{ action.list }}</p>
+        
+      @if(activeActionIndex==action.id){
+        <div  class="action-buttons hidden animated">
+            <button class="edit-time" (click)="editTime($event)">Zmień godzinę zapisu</button>
+            <button class="cancel" (click)="cancel($event)">Zrezygnuj</button>
+        </div>
+    }
+    </div>
+}
+

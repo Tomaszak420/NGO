@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { ActionCardComponent } from './action-card/action-card.component';
+
 interface Action {
+  id:number;
   title: string;
   date: string;
   location: string;
@@ -15,9 +17,11 @@ interface Action {
   templateUrl: './blog-akcji.component.html',
   styleUrl: './blog-akcji.component.scss'
 })
+
 export class BlogAkcjiComponent {
   actions: Action[] = [
     {
+      id: 1,
       title: 'Akcja 1',
       date: '24.01.2023',
       location: 'Kraków',
@@ -26,6 +30,7 @@ export class BlogAkcjiComponent {
       reserveList: 3
     },
     {
+      id: 2,
       title: 'Akcja 1',
       date: '24.01.2023',
       location: 'Kraków',
@@ -34,6 +39,7 @@ export class BlogAkcjiComponent {
       reserveList: 3
     },
     {
+      id: 3,
       title: 'Akcja 2',
       date: '24.01.2023',
       location: 'Kraków',
@@ -42,6 +48,7 @@ export class BlogAkcjiComponent {
       reserveList: 3
     },
     {
+      id: 4,
       title: 'Akcja 3',
       date: '24.01.2023',
       location: 'Kraków',
@@ -50,6 +57,7 @@ export class BlogAkcjiComponent {
       reserveList: 3
     },
     {
+      id: 5,
       title: 'Akcja 2',
       date: '24.01.2023',
       location: 'Kraków',
@@ -58,6 +66,7 @@ export class BlogAkcjiComponent {
       reserveList: 3
     },
     {
+      id: 6,
       title: 'Akcja 3',
       date: '24.01.2023',
       location: 'Kraków',

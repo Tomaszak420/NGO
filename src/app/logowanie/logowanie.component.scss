@@ -1,0 +1,78 @@
+$color_1: #388dd8;
+$color_2: #666;
+$color_3: #fff;
+$font-family_1: Arial, sans-serif;
+
+$background-color_2: #0056b3;
+
+#OknoLog {
+    margin-top: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    transform: scale(1.3); 
+  transform-origin: center;
+}
+.login-container {
+	width: 300px;
+	padding: 20px;
+	border: 3px solid $color_1;
+	border-radius: 15px;
+	text-align: center;
+	
+	h2 {
+		color: $color_1;
+		margin-bottom: 20px;
+	}
+	label {
+		display: block;
+		font-size: 14px;
+		color: $color_2;
+		margin: 10px 0 5px;
+	}
+	input[type="text"] {
+		width: 80%;
+		padding: 10px;
+		border: 2px solid #333;
+		border-radius: 20px;
+		margin-bottom: 10px;
+		outline: none;
+		font-size: 14px;
+	}
+	input[type="password"] {
+		width: 80%;
+		padding: 10px;
+		border: 2px solid #333;
+		border-radius: 20px;
+		margin-bottom: 10px;
+		outline: none;
+		font-size: 14px;
+	}
+	button {
+		width: 100%;
+		padding: 10px;
+		background-color: $color_1;
+		color: $color_3;
+		border: none;
+		border-radius: 20px;
+		font-size: 16px;
+		cursor: pointer;
+		margin-top: 10px;
+		transition: background-color 0.3s;
+		&:hover {
+			background-color: $background-color_2;
+		}
+	}
+}
+.register-link {
+	font-size: 12px;
+	color: $color_2;
+	margin-top: 10px;
+	a {
+		color: $color_1;
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}

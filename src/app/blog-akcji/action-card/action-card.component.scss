@@ -15,7 +15,7 @@ $background-color_2: blue;
 	margin: 1%;
 	img {
 		width: 500px;
-		height: 350px;
+		height: 400px;
 		object-fit: fill;
 		display: block;
 		margin-left: auto;
@@ -55,6 +55,7 @@ $background-color_2: blue;
 	padding: 3%;
 	border: none;
 	border-radius: 4px;
+	
 	cursor: pointer;
 	transition: background-color 0.3s ease;
 	&:hover {

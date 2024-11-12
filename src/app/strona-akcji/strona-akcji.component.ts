@@ -5,8 +5,9 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './strona-akcji.component.html',
-  styleUrl: './strona-akcji.component.css'
+  styleUrl: './strona-akcji.component.scss'
 })
 export class StronaAkcjiComponent {
-
+ 
 }
+
