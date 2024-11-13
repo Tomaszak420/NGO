@@ -8,12 +8,12 @@ import { WidokAdministratoraComponent } from './widok-administratora/widok-admin
 import { StronaAkcjiComponent } from './strona-akcji/strona-akcji.component';
 
  export  const routes: Routes = [
-    { path: 's', component: BlogAkcjiComponent }, 
-    { path: '', component: StronaAkcjiComponent },  
+    { path: '', component: BlogAkcjiComponent }, 
+    { path: 'strona-akcji-component', component: StronaAkcjiComponent },  
     { path: 'kalendarz-akcji-component', component: KalendarzAkcjiComponent },
     { path: 'rejestracja-component', component: RejestracjaComponent },  
     { path: 'logowanie-component', component: LogowanieComponent },  
     { path: 'widok-wolontariusza-component', component: WidokWolontariuszaComponent },
     { path: 'widok-administratora-component', component: WidokAdministratoraComponent },  
    ];
-   //strona-akcji-component
+   //

@@ -1,24 +1,24 @@
-<div class="card">
-    <img src="https://sklep.lambda.pl/userdata/public/gfx/b5ba5b93de162471a3a920ca9f91bb5d.jpg" alt="Akcja obraz" class="card-image" />
-    <div class="card-content">
-      <div id="gora">
-    <div >
-      <h2 style="margin-bottom: 0;">{{title }}</h2>
-      <p style="margin-top: 10px;">{{ date }} - {{ location }}</p>
-    </div>
-    <div id="miejsca" >
-      <span>Liczba wolnych miejsc:</span>
-        <p>Lista Podstawowa: {{ mainList }}</p>
-        <p>Lista Rezerwowa: {{reserveList }}</p>
+
+      <div class="card h-100">
+        <img src="https://sklep.lambda.pl/userdata/public/gfx/b5ba5b93de162471a3a920ca9f91bb5d.jpg" alt="Akcja obraz" class="card-image img-fluid" />
+        <div class="card-body">
+          <div id="gora">
+            <div>
+            <h2 class="card-title ">{{ title }}</h2>
+            <p class="card-text">{{ date }} - {{ location }}</p>
+          </div>
+            <div id="miejsca">
+              <span>Liczba wolnych miejsc:</span>
+              <p>Lista Podstawowa: {{ mainList }}</p>
+              <p>Lista Rezerwowa: {{ reserveList }}</p>
+            </div>
+          </div>
+          <div class="card-footer mt-3">
+            <p class="card-description">{{ description }}</p>
+            <button class="btn btn-primary w-100" routerLink="/strona-akcji-component" routerLinkActive="active" ariaCurrentWhenActive="page">Przejdź do akcji</button>
+          </div>
+        </div>
       </div>
-    </div>
-    <hr style="color:#666; margin-top:0%">
-      <div class="card-footer">
-        
-        <p class="card-description">{{ description }}</p>
-        <br>
-        <button class="card-button" routerLink="/strona-akcji-component" routerLinkActive="active" ariaCurrentWhenActive="page">Przejdź do akcji</button>
-      </div>
-    </div>
-  </div>
-  
+
+
+

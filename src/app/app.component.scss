@@ -12,10 +12,11 @@ html {
 #logo {
 	border-radius: 20px;
 	background-color: $background-color_1 ;
-	width: 100%;
+	width: 20vw;
 	display: flex;
 	color: $color_2 ;
-	padding: 7%;
+	padding: 5%;
+	font-weight: bold;
 }
 hr {
 	color: $color_1;

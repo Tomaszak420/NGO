@@ -1,37 +1,45 @@
-<div id="wid">
-    <div class="volunteer-account">
-        <div class="personal-info">
-            <h2>Twoje konto wolontariusza</h2>
-            <div class="info-container">
-                <div class="details">
-                    <p><strong>Dane osobowe:</strong></p>
-                    <p>Imię:</p>
-                    <p>Nazwisko:</p>
-                    <p>Płeć:</p>
-                    <p>Telefon:</p>
-                    <p>Email:</p>
-                    <p>Adres:</p>
+
+    <div class="row ">
+        <!-- Sekcja Informacji Osobowych po lewej stronie -->
+        <div class="volunteer-account p-4 col-md-6">
+            <div class="personal-info mb-4">
+                <h2 class="text-center mb-4">Twoje konto wolontariusza</h2>
+                <div class="row align-items-center">
+                    <div class="col-md-8">
+                        <p><strong>Dane osobowe:</strong></p>
+                        <p>Imię: <span></span></p>
+                        <p>Nazwisko: <span></span></p>
+                        <p>Płeć: <span></span></p>
+                        <p>Telefon: <span></span></p>
+                        <p>Email: <span></span></p>
+                        <p>Adres: <span></span></p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img src="path/to/profile-image.png" alt="Profile Picture" class="img-fluid rounded-circle" style="max-width: 150px;">
+                    </div>
                 </div>
-                <div class="profile-picture">
-                    <img src="path/to/profile-image.png" alt="Profile Picture">
-                </div>
-            </div>
-            <div class="settings">
-                <p><strong>Ustawienia:</strong></p>
-                <div class="setting-option">
-                    <p>Wysyłanie powiadomień na email</p>
-                    <div class="toggle on"></div>
-                </div>
-                <div class="setting-option">
-                    <p>Kalendarz połączony z Google</p>
-                    <div class="toggle off"></div>
+                <div class="settings mb-4">
+                    <p><strong>Ustawienia:</strong></p>
+                    <div class="setting-option d-flex justify-content-between align-items-center mb-2">
+                        <p class="mb-0">Wysyłanie powiadomień na email</p>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" id="emailNotifications" checked>
+                        </div>
+                    </div>
+                    <div class="setting-option d-flex justify-content-between align-items-center">
+                        <p class="mb-0">Kalendarz połączony z Google</p>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" id="googleCalendar">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="actions" >
-            <h2>Twoje Akcje</h2>
-        <app-wolontariusz-akcje/>
+        <!-- Sekcja Akcji po prawej stronie -->
+        <div class="actions card p-4 shadow-sm col-md-6">
+            <h2 class="text-center mb-4">Twoje Akcje</h2>
+            <app-wolontariusz-akcje></app-wolontariusz-akcje>
         </div>
     </div>
-</div>
+
