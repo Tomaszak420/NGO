@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet,RouterLink,RouterLinkActive } from '@angular/router';
+import { FullCalendarModule } from '@fullcalendar/angular';
 import { BlogAkcjiComponent } from './blog-akcji/blog-akcji.component';
 
 
@@ -9,7 +10,7 @@ import { BlogAkcjiComponent } from './blog-akcji/blog-akcji.component';
   selector: 'app-root',
   standalone:true,
   templateUrl: './app.component.html',
-  imports:[BlogAkcjiComponent, RouterOutlet, RouterLink, RouterLinkActive],
+  imports:[BlogAkcjiComponent, RouterOutlet, RouterLink, RouterLinkActive,FullCalendarModule],
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
